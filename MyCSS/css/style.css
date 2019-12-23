@@ -1,8 +1,11 @@
-body {
-  color: skyblue;
-  border: 1px solid pink;
+.box1 {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
 }
-
-h1 {
-  border: inherit;
+.box2 {
+  background-color: skyblue;
+}
+.box3 {
+  background-color: tomato;
 }
