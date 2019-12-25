@@ -1,8 +1,6 @@
-img {
-  float: right;
-}
-
-h2 {
-  clear: right;
-  
+/* li:empty {
+  background: skyblue;
+} */
+li:not(:empty) {
+  background: skyblue;
 }
