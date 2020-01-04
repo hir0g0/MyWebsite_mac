@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Animation</title>
+    <style>
+      .box {
+        width: 40px;
+        height: 40px;
+        background: skyblue;
+        cursor: pointer;
+        opacity: 1;
+        /* transition-property: transform, opacity;
+        transition-duration: .4s, .4s; */
+        transition: transform .4s, opacity .4s;
+      }
+      .box:hover {
+        transform: rotate(45deg);
+        opacity: .3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
